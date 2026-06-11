@@ -29,9 +29,16 @@ export function useGrid() {
     }));
   }, []);
 
+  const fillAll = useCallback((colorId) => {
+    setGrid(prev => ({
+      ...prev,
+      cells: Array(prev.rows * prev.cols).fill(colorId),
+    }));
+  }, []);
+
   const resizeGrid = useCallback((rows, cols) => {
     setGrid({ rows, cols, cells: makeEmptyCells(rows, cols) });
   }, []);
 
-  return { grid, setCell, clearGrid, resizeGrid };
+  return { grid, setCell, clearGrid, fillAll, resizeGrid };
 }

@@ -41,7 +41,7 @@ export function generatePattern(grid, palette) {
 
 function makeSegment(colorId, count, colorMap) {
   if (colorId === null) {
-    return { count, label: 'empty', hex: '#ffffff' };
+    return { count, label: 'white', hex: '#ffffff' };
   }
   const color = colorMap.get(colorId);
   if (!color) {

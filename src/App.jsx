@@ -1,8 +1,17 @@
 import React, { useState } from 'react';
+import { usePosts } from './hooks/usePosts.js';
+import CreatePage from './pages/CreatePage.jsx';
+import PostsPage from './pages/PostsPage.jsx';
 import './App.css';
 
 export default function App() {
   const [currentPage, setCurrentPage] = useState('create');
+  const { posts, addPost } = usePosts();
+
+  function handlePublish(post) {
+    addPost(post);
+    setCurrentPage('posts');
+  }
 
   return (
     <div className="app">
@@ -25,9 +34,9 @@ export default function App() {
       </nav>
       <main className="app-main">
         {currentPage === 'create' ? (
-          <p style={{ padding: '2rem' }}>Create page coming soon…</p>
+          <CreatePage onPublish={handlePublish} />
         ) : (
-          <p style={{ padding: '2rem' }}>Posts page coming soon…</p>
+          <PostsPage posts={posts} />
         )}
       </main>
     </div>

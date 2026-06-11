@@ -1,1 +1,84 @@
-[]
+[
+  {
+    "id": "sample-001-sunflower",
+    "createdAt": "2026-01-15T10:00:00.000Z",
+    "meta": {
+      "name": "Sunflower",
+      "description": "A simple sunflower motif, perfect for a small wall hanging or a granny square center.",
+      "artist": "Stitch Studio"
+    },
+    "grid": {
+      "rows": 10,
+      "cols": 10,
+      "cells": [
+        null, null, null, null, null, null, null, null, null, null,
+        null, null, "p2", "p2", null, null, "p2", "p2", null, null,
+        null, "p2", "p2", "p2", "p2", "p2", "p2", "p2", "p2", null,
+        null, "p2", "p2", "p1", "p1", "p1", "p1", "p2", "p2", null,
+        null, "p2", "p1", "p1", "p3", "p3", "p1", "p1", "p2", null,
+        null, "p2", "p1", "p1", "p3", "p3", "p1", "p1", "p2", null,
+        null, "p2", "p2", "p1", "p1", "p1", "p1", "p2", "p2", null,
+        null, "p2", "p2", "p2", "p2", "p2", "p2", "p2", "p2", null,
+        null, null, "p2", "p2", null, null, "p2", "p2", null, null,
+        null, null, null, null, null, null, null, null, null, null
+      ]
+    },
+    "palette": [
+      { "id": "p1", "hex": "#fde047", "label": "yellow" },
+      { "id": "p2", "hex": "#f97316", "label": "orange" },
+      { "id": "p3", "hex": "#854d0e", "label": "brown" }
+    ],
+    "pattern": {
+      "rows": [
+        { "rowNumber": 1, "totalStitches": 10, "segments": [{ "count": 10, "label": "white", "hex": "#ffffff" }] },
+        { "rowNumber": 2, "totalStitches": 10, "segments": [{ "count": 2, "label": "white", "hex": "#ffffff" }, { "count": 2, "label": "orange", "hex": "#f97316" }, { "count": 2, "label": "white", "hex": "#ffffff" }, { "count": 2, "label": "orange", "hex": "#f97316" }, { "count": 2, "label": "white", "hex": "#ffffff" }] },
+        { "rowNumber": 3, "totalStitches": 10, "segments": [{ "count": 1, "label": "white", "hex": "#ffffff" }, { "count": 8, "label": "orange", "hex": "#f97316" }, { "count": 1, "label": "white", "hex": "#ffffff" }] },
+        { "rowNumber": 4, "totalStitches": 10, "segments": [{ "count": 1, "label": "white", "hex": "#ffffff" }, { "count": 2, "label": "orange", "hex": "#f97316" }, { "count": 4, "label": "yellow", "hex": "#fde047" }, { "count": 2, "label": "orange", "hex": "#f97316" }, { "count": 1, "label": "white", "hex": "#ffffff" }] },
+        { "rowNumber": 5, "totalStitches": 10, "segments": [{ "count": 1, "label": "white", "hex": "#ffffff" }, { "count": 1, "label": "orange", "hex": "#f97316" }, { "count": 2, "label": "yellow", "hex": "#fde047" }, { "count": 2, "label": "brown", "hex": "#854d0e" }, { "count": 2, "label": "yellow", "hex": "#fde047" }, { "count": 1, "label": "orange", "hex": "#f97316" }, { "count": 1, "label": "white", "hex": "#ffffff" }] },
+        { "rowNumber": 6, "totalStitches": 10, "segments": [{ "count": 1, "label": "white", "hex": "#ffffff" }, { "count": 1, "label": "orange", "hex": "#f97316" }, { "count": 2, "label": "yellow", "hex": "#fde047" }, { "count": 2, "label": "brown", "hex": "#854d0e" }, { "count": 2, "label": "yellow", "hex": "#fde047" }, { "count": 1, "label": "orange", "hex": "#f97316" }, { "count": 1, "label": "white", "hex": "#ffffff" }] },
+        { "rowNumber": 7, "totalStitches": 10, "segments": [{ "count": 1, "label": "white", "hex": "#ffffff" }, { "count": 2, "label": "orange", "hex": "#f97316" }, { "count": 4, "label": "yellow", "hex": "#fde047" }, { "count": 2, "label": "orange", "hex": "#f97316" }, { "count": 1, "label": "white", "hex": "#ffffff" }] },
+        { "rowNumber": 8, "totalStitches": 10, "segments": [{ "count": 1, "label": "white", "hex": "#ffffff" }, { "count": 8, "label": "orange", "hex": "#f97316" }, { "count": 1, "label": "white", "hex": "#ffffff" }] },
+        { "rowNumber": 9, "totalStitches": 10, "segments": [{ "count": 2, "label": "white", "hex": "#ffffff" }, { "count": 2, "label": "orange", "hex": "#f97316" }, { "count": 2, "label": "white", "hex": "#ffffff" }, { "count": 2, "label": "orange", "hex": "#f97316" }, { "count": 2, "label": "white", "hex": "#ffffff" }] },
+        { "rowNumber": 10, "totalStitches": 10, "segments": [{ "count": 10, "label": "white", "hex": "#ffffff" }] }
+      ]
+    }
+  },
+  {
+    "id": "sample-002-heart",
+    "createdAt": "2026-02-14T10:00:00.000Z",
+    "meta": {
+      "name": "Heart",
+      "description": "A classic heart shape. Great for valentine's day gifts or decorative patches.",
+      "artist": "Stitch Studio"
+    },
+    "grid": {
+      "rows": 8,
+      "cols": 12,
+      "cells": [
+        null, null, null, null, null, null, null, null, null, null, null, null,
+        null, "r1", "r1", null, null, "r1", "r1", null, null, null, null, null,
+        "r1", "r1", "r1", "r1", "r1", "r1", "r1", "r1", null, null, null, null,
+        "r1", "r1", "r1", "r1", "r1", "r1", "r1", "r1", "r1", null, null, null,
+        null, "r1", "r1", "r1", "r1", "r1", "r1", "r1", "r1", "r1", null, null,
+        null, null, "r1", "r1", "r1", "r1", "r1", "r1", "r1", null, null, null,
+        null, null, null, "r1", "r1", "r1", "r1", "r1", null, null, null, null,
+        null, null, null, null, "r1", "r1", "r1", null, null, null, null, null
+      ]
+    },
+    "palette": [
+      { "id": "r1", "hex": "#ef4444", "label": "red" }
+    ],
+    "pattern": {
+      "rows": [
+        { "rowNumber": 1, "totalStitches": 12, "segments": [{ "count": 4, "label": "white", "hex": "#ffffff" }, { "count": 3, "label": "red", "hex": "#ef4444" }, { "count": 5, "label": "white", "hex": "#ffffff" }] },
+        { "rowNumber": 2, "totalStitches": 12, "segments": [{ "count": 3, "label": "white", "hex": "#ffffff" }, { "count": 5, "label": "red", "hex": "#ef4444" }, { "count": 4, "label": "white", "hex": "#ffffff" }] },
+        { "rowNumber": 3, "totalStitches": 12, "segments": [{ "count": 2, "label": "white", "hex": "#ffffff" }, { "count": 7, "label": "red", "hex": "#ef4444" }, { "count": 3, "label": "white", "hex": "#ffffff" }] },
+        { "rowNumber": 4, "totalStitches": 12, "segments": [{ "count": 1, "label": "white", "hex": "#ffffff" }, { "count": 9, "label": "red", "hex": "#ef4444" }, { "count": 2, "label": "white", "hex": "#ffffff" }] },
+        { "rowNumber": 5, "totalStitches": 12, "segments": [{ "count": 8, "label": "red", "hex": "#ef4444" }, { "count": 4, "label": "white", "hex": "#ffffff" }] },
+        { "rowNumber": 6, "totalStitches": 12, "segments": [{ "count": 8, "label": "red", "hex": "#ef4444" }, { "count": 4, "label": "white", "hex": "#ffffff" }] },
+        { "rowNumber": 7, "totalStitches": 12, "segments": [{ "count": 1, "label": "white", "hex": "#ffffff" }, { "count": 2, "label": "red", "hex": "#ef4444" }, { "count": 2, "label": "white", "hex": "#ffffff" }, { "count": 4, "label": "red", "hex": "#ef4444" }, { "count": 3, "label": "white", "hex": "#ffffff" }] },
+        { "rowNumber": 8, "totalStitches": 12, "segments": [{ "count": 12, "label": "white", "hex": "#ffffff" }] }
+      ]
+    }
+  }
+]

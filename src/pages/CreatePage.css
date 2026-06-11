@@ -1,0 +1,51 @@
+.create-page {
+  display: grid;
+  grid-template-columns: 220px 1fr 300px;
+  gap: 1rem;
+  padding: 1rem;
+  flex: 1;
+  min-height: 0;
+  height: calc(100vh - 52px);
+}
+
+.create-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  overflow-y: auto;
+  padding-right: 0.25rem;
+}
+
+.sidebar-divider {
+  height: 1px;
+  background: #e5e5e5;
+}
+
+.create-canvas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 0;
+}
+
+.create-pattern {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.pattern-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+@media (max-width: 800px) {
+  .create-page {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    height: auto;
+  }
+}
