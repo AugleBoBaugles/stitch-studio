@@ -1,0 +1,25 @@
+.pixel-grid-wrapper {
+  touch-action: none;
+  user-select: none;
+  border: 2px solid #d4d4d4;
+  border-radius: 4px;
+  overflow: hidden;
+  width: 100%;
+  aspect-ratio: 1;
+}
+
+.pixel-grid {
+  display: grid;
+  width: 100%;
+  height: 100%;
+}
+
+.grid-cell {
+  border: 0.5px solid rgba(0, 0, 0, 0.08);
+  cursor: crosshair;
+  transition: filter 0.05s;
+}
+
+.grid-cell:hover {
+  filter: brightness(0.85);
+}

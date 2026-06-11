@@ -1,0 +1,30 @@
+.color-picker-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.color-picker-swatch-input {
+  width: 80px;
+  height: 80px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 0;
+}
+
+.color-picker-hex-input {
+  width: 120px;
+  padding: 0.4rem 0.6rem;
+  border: 1px solid #d4d4d4;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  text-align: center;
+  font-family: monospace;
+}
+
+.color-picker-actions {
+  display: flex;
+  gap: 0.5rem;
+}
