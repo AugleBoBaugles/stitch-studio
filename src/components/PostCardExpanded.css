@@ -1,0 +1,87 @@
+.expanded-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  padding: 1rem;
+}
+
+.expanded-box {
+  background: white;
+  border-radius: 12px;
+  width: min(760px, 96vw);
+  max-height: 90vh;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 24px 64px rgba(0,0,0,0.3);
+}
+
+.expanded-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 1.2rem 1.4rem 0.8rem;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.expanded-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 0.2rem;
+}
+
+.expanded-artist {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.expanded-close {
+  background: none;
+  border: none;
+  font-size: 1rem;
+  color: #888;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+.expanded-close:hover {
+  background: #f0f0f0;
+  color: #1a1a1a;
+}
+
+.expanded-description {
+  padding: 0.75rem 1.4rem 0;
+  font-size: 0.88rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+.expanded-body {
+  display: flex;
+  gap: 1.2rem;
+  padding: 1.2rem 1.4rem;
+  flex: 1;
+  min-height: 0;
+}
+
+.expanded-art {
+  flex-shrink: 0;
+}
+
+.expanded-pattern {
+  flex: 1;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.expanded-footer {
+  padding: 0.9rem 1.4rem;
+  border-top: 1px solid #e5e5e5;
+  display: flex;
+  justify-content: flex-end;
+}
