@@ -51,6 +51,9 @@ export default function PublishModal({ onConfirm, onClose }) {
             aria-label="Artist name"
           />
         </label>
+        <p className="publish-warning">
+          This post is not public. Only you can see it. Sorry :/
+        </p>
         <div className="publish-actions">
           <Button variant="secondary" type="button" onClick={onClose}>Cancel</Button>
           <Button type="submit">Post pattern</Button>
