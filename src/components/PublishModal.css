@@ -1,0 +1,39 @@
+.publish-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.publish-label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #444;
+}
+
+.publish-input {
+  padding: 0.5rem 0.65rem;
+  border: 1px solid #d4d4d4;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-family: inherit;
+  transition: border-color 0.15s;
+}
+
+.publish-input:focus {
+  outline: none;
+  border-color: #1a1a1a;
+}
+
+.publish-textarea {
+  resize: vertical;
+}
+
+.publish-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  margin-top: 0.25rem;
+}
