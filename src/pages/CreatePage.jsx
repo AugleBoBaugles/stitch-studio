@@ -82,7 +82,7 @@ export default function CreatePage({ onPublish }) {
           disabled={!activeColorId}
           title={!activeColorId ? 'Select a color first' : 'Fill entire canvas with selected color'}
         >
-          🪣 Fill canvas
+          Fill canvas
         </Button>
       </aside>
 
