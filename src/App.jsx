@@ -16,7 +16,7 @@ export default function App() {
   return (
     <div className="app">
       <nav className="app-nav">
-        <span className="app-logo">🧶 Stitch Studio</span>
+        <span className="app-logo">Stitch Studio</span>
         <div className="app-nav-links">
           <button
             className={currentPage === 'create' ? 'nav-link active' : 'nav-link'}

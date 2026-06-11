@@ -4,8 +4,10 @@
   border: 2px solid #d4d4d4;
   border-radius: 4px;
   overflow: hidden;
-  width: 100%;
   aspect-ratio: 1;
+  /* never wider than the column, never taller than the viewport content area */
+  width: min(100%, calc(100vh - 52px - 2rem));
+  max-width: 100%;
 }
 
 .pixel-grid {
